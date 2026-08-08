@@ -1,26 +1,26 @@
 import React from "react";
 import calculator from "../assets/calculator.png";
 import currency_converter from "../assets/currency-converter.png";
-import rock_paper_scissors from "../assets/rock-paper-scissor.png";
+import Password_Generator from "../assets/password-generator.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Rock Paper Scissors Game",
+      title: "Password_Generator",
       description:
-        "rock-paper-scissors game built with HTML, CSS, and JavaScript. It features a simple and intuitive interface where players can choose their move and compete against the computer. The game keeps track of scores and provides an engaging experience for users.",
+        "SecurePass is a simple and user-friendly password generator built with HTML, CSS, and JavaScript. It provides a secure login-style interface with password management features, including password generation and an easy-to-use design for a smooth user experience.",
       tech: ["HTML", "CSS", "JavaScript"],
-      link: "https://rohitgupta7327.github.io/Rock-Paper-Scissor-Game/",
-      github: "https://github.com/rohitgupta7327/Rock-Paper-Scissor-Game",
-      image: rock_paper_scissors,
+      link: "http://secure-pass.in/",
+      github: "https://github.com/rohitgupta7327/Password-Generator",
+      image: Password_Generator,
     },
     {
-      title: "Calculator",
+      title: "Weather App",
       description:
-        "A simple calculator built with HTML, CSS, and JavaScript. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator features a clean and user-friendly interface, allowing users to perform calculations easily and efficiently.",
+        "WeatherPulse is a simple and responsive weather forecast app built with HTML, CSS, and JavaScript. It uses the OpenWeatherMap API to fetch real-time weather data and display temperature, weather conditions, and other useful information based on the searched location.",
       tech: ["HTML", "CSS", "JavaScript"],
-      link: " https://rohitgupta7327.github.io/Calculator/",
-      github: "https://github.com/rohitgupta7327/Calculator",
+      link: " https://rohitgupta7327.github.io/Weather-App/",
+      github: "https://github.com/rohitgupta7327/Weather-App",
       image: calculator,
     },
     {

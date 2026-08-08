@@ -149,7 +149,7 @@ const Home = () => {
                 </a>
 
               {/* RESUME */}
-                <a href="/Assignment -1 data mining .docx"
+                <a href="/Rohitgupta.FullStackDeveloper.pdf"
                 download
                 className="px-6 py-3 rounded-full text-lg font-medium text-black bg-white hover:bg-gray-200 shadow-lg hover:scale-105 transition-all"
                 >My Resume</a>
