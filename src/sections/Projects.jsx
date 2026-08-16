@@ -1,27 +1,26 @@
 import React from "react";
-import calculator from "../assets/calculator.png";
+import Weather_App from "../assets/Weather App.png";
 import currency_converter from "../assets/currency-converter.png";
-import Password_Generator from "../assets/password-generator.png";
+import Code_Room from "../assets/Code Room.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Password_Generator",
-      description:
-        "SecurePass is a simple and user-friendly password generator built with HTML, CSS, and JavaScript. It provides a secure login-style interface with password management features, including password generation and an easy-to-use design for a smooth user experience.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      link: "http://secure-pass.in/",
-      github: "https://github.com/rohitgupta7327/Password-Generator",
-      image: Password_Generator,
+      title: "Code Room",
+      description: "CodeRoom is a full-stack real-time collaborative coding platform. It features an embedded Monaco code editor, multi-language code compilation via Piston API, live HD video calling & chat powered by Stream SDK, and secure authentication with Clerk.",
+      tech: ["HTML", "Tailwind CSS", "JavaScript", "React.Js", "Node.js", "Express.js", "MongoDB"],
+      link: "https://code-room-nu.vercel.app/",
+      github: "https://github.com/rohitgupta7327/CodeRoom",
+      image: Code_Room,
     },
     {
       title: "Weather App",
       description:
         "WeatherPulse is a simple and responsive weather forecast app built with HTML, CSS, and JavaScript. It uses the OpenWeatherMap API to fetch real-time weather data and display temperature, weather conditions, and other useful information based on the searched location.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      link: " https://rohitgupta7327.github.io/Weather-App/",
+      tech: ["HTML", "CSS", "JavaScript", "React.Js"],
+      link: " https://weather-app-qy4t.onrender.com",
       github: "https://github.com/rohitgupta7327/Weather-App",
-      image: calculator,
+      image: Weather_App,
     },
     {
       title: "Currency Converter",
@@ -31,7 +30,7 @@ const Projects = () => {
       link: " https://rohitgupta7327.github.io/Currency-Converter/",
       github:
         "https://github.com/rohitgupta7327/Currency-Converter?tab=readme-ov-file",
-      image:currency_converter,
+      image: currency_converter,
     },
   ];
 
@@ -136,7 +135,7 @@ const Projects = () => {
             </div>
           ))}
         </div>
-{/* See more on GitHub button */}
+        {/* See more on GitHub button */}
         <div className="mt-16 text-center">
           <a
             href="https://github.com/rohitgupta7327"
